@@ -1,5 +1,7 @@
 ![](https://media.vlpt.us/images/blucky8649/post/01be74b3-d19b-484e-be4a-699ec4fdc151/%EC%A0%9C%EB%AA%A9%EC%9D%84-%EC%9E%85%EB%A0%A5%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94_-001.png)
 
+[Velog 포스팅으로 보기](https://velog.io/@blucky8649/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-Jetpack-Compose-%EC%B0%8D%EB%A8%B9-%ED%95%B4%EB%B3%B4%EA%B8%B0-1%ED%8E%B8-Hello-World)
+
 ## What is Jetpack Compose?
 **Jetpack Compose**는 네이티브 UI를 빌드하기 위한 Android의 최신 도구 키트입니다. 기존 XML을 사용하여 UI를 제작하던 방식을 버리고, Kotlin API를 이용하여 더 빠르고, 직관적으로 UI를 구현할 수 있습니다.
 
