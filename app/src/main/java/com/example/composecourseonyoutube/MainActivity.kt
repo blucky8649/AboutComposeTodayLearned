@@ -35,17 +35,79 @@ class MainActivity : ComponentActivity() {
             val painter = painterResource(id = R.drawable.kermit)
             val description = "Kermit in the snow"
             val title = "Kermit is playing in the snow"
-            Box(modifier = Modifier
-                .fillMaxWidth(0.5f)
-                .padding(16.dp)
-            ) {
-                ImageCard(painter = painter,
-                    contentDescription = description,
-                    title = title)
+            Column(Modifier.background(Color.Cyan)) {
+                Row(
+                    Modifier
+                        .fillMaxWidth())
+                {
+                    Box(modifier = Modifier
+                        .fillMaxWidth(0.5f)
+                        .padding(16.dp)
+                    ) {
+                        ImageCard(painter = painter,
+                            contentDescription = description,
+                            title = title)
+                    }
+
+                    Box(modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(16.dp)
+                    ) {
+                        ImageCard(painter = painter,
+                            contentDescription = description,
+                            title = title)
+                    }
+                }
+                Row(
+                    Modifier
+                        .fillMaxWidth())
+                {
+                    Box(modifier = Modifier
+                        .fillMaxWidth(0.5f)
+                        .padding(16.dp)
+                    ) {
+                        ImageCard(painter = painter,
+                            contentDescription = description,
+                            title = title)
+                    }
+
+                    Box(modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(16.dp)
+                    ) {
+                        ImageCard(painter = painter,
+                            contentDescription = description,
+                            title = title)
+                    }
+                }
+                Row(
+                    Modifier
+                        .fillMaxWidth())
+                {
+                    Box(modifier = Modifier
+                        .fillMaxWidth(0.5f)
+                        .padding(16.dp)
+                    ) {
+                        ImageCard(painter = painter,
+                            contentDescription = description,
+                            title = title)
+                    }
+
+                    Box(modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(16.dp)
+                    ) {
+                        ImageCard(painter = painter,
+                            contentDescription = description,
+                            title = title)
+                    }
+                }
             }
         }
     }
 }
+
+
 
 @Composable
 fun ImageCard(
@@ -57,7 +119,7 @@ fun ImageCard(
     Card(
         modifier = modifier.fillMaxWidth(),
         shape = RoundedCornerShape(15.dp),
-        elevation = 5.dp
+        elevation = 10.dp
     ) {
         Box(modifier = modifier.height(200.dp)) {
             Image(
